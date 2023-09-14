@@ -1,0 +1,104 @@
+.reportTable
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 1050px;
+}
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td {
+  border: 2px solid #AAAAAA;
+  padding: 3px 5px;
+}
+table.blueTable th {
+	border: 2px solid #AAAAAA;
+	padding: 3px 5px 3px 3px;
+	text-transform: uppercase;
+	background: #7ebbe7;
+  color: #262626;
+  position: sticky;
+  top: 0;
+  }
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background-color: white;
+  
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 25px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable th:hover {
+  background: #7ee7e7 !important;
+} 
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+table.blueTable tr:hover
+{
+  background: #2698c9;
+  color: white;
+  cursor: pointer;
+}
+
+table.blueTable tr:hover:active
+{
+  background-color: #1d7296;
+  color: #d9d9d9;
+}
+
+table.blueTable tr:nth-child(odd):hover 
+{
+  background: #2698c9;
+  color: white;
+  cursor: pointer;
+}
+
+table.blueTable tr:nth-child(odd):hover:active
+{
+  background-color: #1d7296;
+  color: #d9d9d9;
+}

@@ -1,0 +1,429 @@
+body
+{
+	margin: 0;
+	background-color: #2F3335;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 17px;
+}
+
+html 
+{
+	scroll-behavior: smooth;
+}
+
+.empty
+{
+	height: 10px;
+}
+
+::-webkit-scrollbar 
+{
+	width: 17px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+	background: #2698c9;
+	border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover 
+{
+	background: #2182ab;
+}
+
+::-webkit-scrollbar-thumb:active 
+{ 
+    background-color: #1d7296;
+}  
+
+::-webkit-scrollbar-track 
+{
+	box-shadow: inset 0 0 10px #69bee2;
+	border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner
+{
+	background: #69bee2;
+}
+
+h1.logo
+{
+	font-size: 50px;
+	color: #d1cccc;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#navbar
+{
+	background-color: #227ab9;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.mainmenu
+{
+	list-style-type: none;
+	margin:0;
+	padding: 6px;
+	font-size: 22px;
+	min-height: 35px;
+	line-height: 200%;
+}
+
+.mainmenu >li
+{
+	display: inline-block;
+	padding-left: 7px;
+	padding-right: 7px;
+	width: 130px;
+	border-right: 3px double #005194;
+}
+
+.mainmenu >li:hover
+{
+	background-color: #1c6497;
+}
+
+.mainmenu >li:hover > a
+{
+	color: #E8C56F;
+	text-shadow: 0px 0px 17px rgba(232,197,111,0.83);
+}
+
+.mainmenu >li:active > a
+{
+	color: #c59720;
+}
+
+.mainmenu >li:first-child
+{
+	border-left: 3px double #005194;
+}
+
+.mainmenu >li:last-child:hover
+{
+	color: black;
+	background-color: #FF056B;
+}
+
+.mainmenu >li:last-child:active
+{
+	background-color: #cc0052;
+}
+
+.mainmenu >li:last-child > a:hover
+{
+	color: black;
+}
+
+.mainmenu a
+{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	letter-spacing: 2.5px;
+}
+
+.mainmenu >li:last-child
+{
+	padding: 0;
+}
+
+.mainmenu >li:last-child > a
+{
+	color: #ff8080;
+}
+
+.body
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding: 10px 10px 0 10px;
+	background-color: #d1cccc;
+	min-height: 450px;
+}
+
+.footer
+{
+	color: #d1c222;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	text-align: center;
+	padding: 22px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	background-color: #303630;
+	transition: 1s ease-in-out;
+}
+
+.footer:hover
+{
+	text-shadow: 0 0 8px red;
+}
+
+.col
+{
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: right;
+	font-size: 25px;
+	width: 350px;
+}
+
+.allControls
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 790px;
+}
+
+.oneInput
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 23px;
+	text-align: center;
+}
+
+label
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: none;
+	text-align: left;
+}
+
+.labelLog
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: none;
+	font-size: 23px;
+	text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+select
+{
+	width: 300px;
+	height: 40px;
+	border: 2px solid #878787;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+select:focus
+{
+	-webkit-box-shadow: 0px 0px 25px -3px rgba(52,238,255,0.59); 
+	box-shadow: 0px 0px 25px -3px rgba(52,238,255,0.59);
+	background-color: #e6fdff;
+}
+
+.comm
+{
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 780px;
+	text-align: center;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input.comField
+{
+	width: 680px;
+	height: 90px;
+	border: 2px solid #878787;
+	border-radius: 5px;
+}
+
+input[type=submit], input[type=button]
+{
+	width: 91%;
+	height: 65px;
+	background-color: #309c35;
+	font-size: 23px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	margin: 8px;
+}
+
+#logButton
+{
+	width: 308px;
+}
+
+input[type=submit]:hover, input[type=button]:hover
+{
+	background-color: #36b03c;
+	border: 2px solid #247528;
+}
+
+input[type=submit]:active, input[type=button]:active
+{
+	background-color: #4fc956;
+	border: 2px solid black;
+}
+
+input:disabled, select:disabled
+{
+	cursor: not-allowed;
+}
+
+button:disabled, button:hover:disabled, button:active:disabled, input[type=button]:disabled, input[type=button]:disabled:hover
+{
+	background-color: #5e5e5e !important;
+	cursor: not-allowed;
+	border: none !important;
+}
+
+input[type=text]:read-only, input[type=text]:read-only:focus, select:disabled
+{
+	cursor: not-allowed;
+	box-shadow: none;
+	background-color: #b3b3b3;
+}
+
+.logged
+{
+	font-size: 16px;
+	text-align: center;
+	height: auto;
+	width: 750px;
+	color: #d6d6d6;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.err
+{
+	width: 308px;
+	height: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scrollup
+{
+	width: 80px;
+	height: 80px;
+	text-decoration: none;
+	background: url("up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 100px;
+	bottom: 40px;
+}
+
+.search
+{
+	width: 336px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 23px;
+}
+
+.hidden
+{
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
+}
+
+.updateForm
+{
+	border-top: 10px solid #2f3335;
+	border-right: 10px double #2f3335;
+	border-left: 10px double #2f3335;
+	width: 790px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formHeader
+{
+	text-align: left;
+	padding: 8px;
+	border-bottom: 2px dotted #2F3335;
+	background-color: #b6afaf;
+}
+
+.delete-button
+{
+	width: 305px !important;
+	background-color: #cc0000 !important;
+}
+
+.delete-button:hover{
+    background-color: #e60000 !important;
+	border: 2px solid #800000 !important;
+}
+
+.delete-button:active{
+    background-color: #ff1a1a !important;
+	border: 2px solid black !important;
+}
+
+.selectedDevice{
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+	border-bottom: 2px dotted #2F3335;
+	color: white;
+}
+
+.divRemove{
+	background-color: gray;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 5px solid gray;
+	border-right: 5px solid gray;
+	border-left: 5px solid gray;
+}
+
+#delDivButton{
+	height: 136px;
+	background-color: #d1cccc;
+}
+
+#deleteButton{
+	margin-top: 35px;
+}
+
+.rowInput {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 932px;
+}
